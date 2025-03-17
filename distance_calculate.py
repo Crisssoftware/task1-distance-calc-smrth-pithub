@@ -12,7 +12,7 @@ class DistanceCalculate(Node):
 
         self.subscription = self.create_subscription(
             Pose,
-            '/turtle1/pose',  # Corrected topic name
+            '/turtle1/pose',  
             self.pose_callback,
             10
         )
